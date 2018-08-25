@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Stop One</p>
+    <p>Stop Four</p>
 
     <section v-if="errored">
       <font-awesome-icon icon="exclamation-circle" class="fa-spin fa-3x" />
@@ -26,7 +26,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'StopOne',
+  name: 'StopFour',
   data () {
     return {
       info: null,
@@ -36,7 +36,7 @@ export default {
   },
   mounted () {
     axios
-      .get('https://api.fremonttrains.com/crossings/1/status', { crossdomain: true })
+      .get('https://api.fremonttrains.com/crossings/2/status', { crossdomain: true })
       .then(response => {
         this.info = response.data
       })

@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <StopOne />
+    <stop-one />
+    <stop-two />
+    <stop-three />
+    <stop-four />
   </div>
 </template>
 
 <script>
 import StopOne from './components/StopOne.vue'
+import StopTwo from './components/StopTwo.vue'
+import StopThree from './components/StopThree.vue'
+import StopFour from './components/StopFour.vue'
 
 export default {
   name: 'app',
   components: {
-    StopOne
+    StopOne,
+    StopTwo,
+    StopThree,
+    StopFour
   }
 }
 </script>
