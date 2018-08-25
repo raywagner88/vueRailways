@@ -12,11 +12,11 @@
       </div>
 
       <div v-else-if="info">
-        <font-awesome-icon icon="train" />
+        <font-awesome-icon icon="train" class="fa-3x" />
       </div>
 
       <div v-else>
-        <font-awesome-icon icon="grin-beam-sweat" />
+        <font-awesome-icon icon="grin-beam-sweat" class="fa-3x" />
       </div>
     </section>
   </div>
