@@ -36,7 +36,7 @@ export default {
   },
   mounted () {
     axios
-      .get('https://api.fremonttrains.com/crossings/1/status', { crossdomain: true })
+      .get('http://api.fremonttrains.com/crossings/1/status', { crossdomain: true })
       .then(response => {
         this.info = response.data
       })
