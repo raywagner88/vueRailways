@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/raywagner88/vueRailways.svg?branch=master)](https://travis-ci.org/raywagner88/vueRailways)
+
 # vue
 
 ## Project setup
