@@ -14,7 +14,7 @@ module.exports = {
     'no-var': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': 'error',
-    'comma-dangle': ['error', 'never'],
+    "comma-dangle": ['error', 'never'],
     'quotes': ['error', 'single']
   },
   parserOptions: {
